@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="618.373" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\2327272\eclipse-workspace\EMI_Calculator_2327272\target\test-classes;C:\Users\2327272\eclipse-workspace\EMI_Calculator_2327272\target\classes;C:\Users\2327272\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\2327272\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\2327272\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2327272\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2327272\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2327272\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\2327272\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\2327272\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\2327272\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\2327272\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\2327272\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\2327272\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\2327272\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2327272\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2327272\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2327272\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2327272\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2327272\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2327272\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2327272\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\2327272\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\2327272\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\2327272\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\2327272\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2327272\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2327272\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2327272\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2327272\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2327272\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2327272\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2327272\.m2\repository\org\apache\logging\log4j\log4j-api\3.0.0-beta2\log4j-api-3.0.0-beta2.jar;C:\Users\2327272\.m2\repository\org\apache\logging\log4j\log4j-core\3.0.0-beta2\log4j-core-3.0.0-beta2.jar;C:\Users\2327272\.m2\repository\org\apache\logging\log4j\log4j-plugins\3.0.0-beta2\log4j-plugins-3.0.0-beta2.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-java\7.16.1\cucumber-java-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-core\7.16.1\cucumber-core-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-gherkin\7.16.1\cucumber-gherkin-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.16.1\cucumber-gherkin-messages-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\2327272\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\2327272\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\2327272\.m2\repository\io\cucumber\datatable\7.16.1\datatable-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-plugin\7.16.1\cucumber-plugin-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\docstring\7.16.1\docstring-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\html-formatter\21.3.0\html-formatter-21.3.0.jar;C:\Users\2327272\.m2\repository\io\cucumber\junit-xml-formatter\0.3.0\junit-xml-formatter-0.3.0.jar;C:\Users\2327272\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\2327272\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-junit\7.16.1\cucumber-junit-7.16.1.jar;C:\Users\2327272\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2327272\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-testng\7.16.1\cucumber-testng-7.16.1.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\2327272\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\2327272\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\2327272\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2327272\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2327272\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2327272\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2327272\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\2327272\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\2327272\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\2327272\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2327272\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2327272\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2327272\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2327272\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2327272\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2327272\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\2327272\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\2327272\AppData\Local\Temp\surefire4888379825879753195\surefirebooter-20240415171702130_3.jar C:\Users\2327272\AppData\Local\Temp\surefire4888379825879753195 2024-04-15T17-17-01_640-jvmRun1 surefire-20240415171702130_1tmp surefire_0-20240415171702130_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\2327272\eclipse-workspace\EMI_Calculator_2327272\target\test-classes;C:\Users\2327272\eclipse-workspace\EMI_Calculator_2327272\target\classes;C:\Users\2327272\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\2327272\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\2327272\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2327272\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2327272\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2327272\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\2327272\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\2327272\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\2327272\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\2327272\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\2327272\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\2327272\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\2327272\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\2327272\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\2327272\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2327272\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2327272\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2327272\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2327272\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2327272\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2327272\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2327272\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\2327272\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\2327272\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\2327272\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\2327272\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2327272\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2327272\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2327272\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2327272\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2327272\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2327272\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2327272\.m2\repository\org\apache\logging\log4j\log4j-api\3.0.0-beta2\log4j-api-3.0.0-beta2.jar;C:\Users\2327272\.m2\repository\org\apache\logging\log4j\log4j-core\3.0.0-beta2\log4j-core-3.0.0-beta2.jar;C:\Users\2327272\.m2\repository\org\apache\logging\log4j\log4j-plugins\3.0.0-beta2\log4j-plugins-3.0.0-beta2.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-java\7.16.1\cucumber-java-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-core\7.16.1\cucumber-core-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-gherkin\7.16.1\cucumber-gherkin-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.16.1\cucumber-gherkin-messages-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\2327272\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\2327272\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\2327272\.m2\repository\io\cucumber\datatable\7.16.1\datatable-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-plugin\7.16.1\cucumber-plugin-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\docstring\7.16.1\docstring-7.16.1.jar;C:\Users\2327272\.m2\repository\io\cucumber\html-formatter\21.3.0\html-formatter-21.3.0.jar;C:\Users\2327272\.m2\repository\io\cucumber\junit-xml-formatter\0.3.0\junit-xml-formatter-0.3.0.jar;C:\Users\2327272\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\2327272\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-junit\7.16.1\cucumber-junit-7.16.1.jar;C:\Users\2327272\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2327272\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2327272\.m2\repository\io\cucumber\cucumber-testng\7.16.1\cucumber-testng-7.16.1.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\2327272\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\2327272\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\2327272\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2327272\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2327272\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2327272\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2327272\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\2327272\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\2327272\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\2327272\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2327272\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2327272\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2327272\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2327272\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2327272\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2327272\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\2327272\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\2327272"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Users\2327272\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\2327272\eclipse-workspace\EMI_Calculator_2327272"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\2327272\AppData\Local\Temp\surefire4888379825879753195\surefirebooter-20240415171702130_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+7"/>
+    <property name="user.name" value="2327272"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.10+7"/>
+    <property name="localRepository" value="C:\Users\2327272\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\2327272\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="C:\Users\2327272\eclipse-workspace\EMI_Calculator_2327272"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\2327272\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\2327272\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin;C:/Users/2327272/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/2327272/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Zulu\zulu-17\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\2327272\AppData\Local\Microsoft\WindowsApps;;C:\Windows\System32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.10+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Calculation of car loan&quot;, &quot;Car Loan EMI Calculation&quot;](1)" classname="testRunner.TestRunner" time="12.757">
+    <system-out><![CDATA[
+Scenario: Calculation of car loan                       # Features/CarLoan.feature:9
+Opening Browser...
+https://emicalculator.net/
+  Given the user navigates to Car Loan section          # stepDefinitions.CarLoanCalculationSteps.the_user_navigates_to_car_loan_section()
+
+    Embedding Calculation of car loan [image/png 176358 bytes]
+
+  When user enters the Car Loan Amount                  # stepDefinitions.CarLoanCalculationSteps.user_enters_the_Car_Loan_Amoun()
+
+    Embedding Calculation of car loan [image/png 176735 bytes]
+
+  And user enters the Interest Rate                     # stepDefinitions.CarLoanCalculationSteps.user_enters_the_interest_rate()
+
+    Embedding Calculation of car loan [image/png 176658 bytes]
+
+  And user enters the Loan Tenure                       # stepDefinitions.CarLoanCalculationSteps.user_enters_the_loan_tenure()
+
+    Embedding Calculation of car loan [image/png 176463 bytes]
+
+First month principal is: ₹ 5,373
+First month interest is: ₹ 2,833
+===========================================================
+2024₹ 49,753₹ 24,107
+Apr₹ 5,373₹ 2,833
+May₹ 5,411₹ 2,795
+Jun₹ 5,450₹ 2,757
+
+
+
+
+
+
+2025₹ 71,449₹ 27,030
+Jan₹ 5,726₹ 2,481
+Feb₹ 5,766₹ 2,440
+Mar₹ 5,807₹ 2,400
+Apr₹ 5,848₹ 2,358
+May₹ 5,890₹ 2,317
+Jun₹ 5,931₹ 2,275
+Jul₹ 5,973₹ 2,233
+Aug₹ 6,016₹ 2,191
+Sep₹ 6,058₹ 2,148
+Oct₹ 6,101₹ 2,105
+Nov₹ 6,144₹ 2,062
+Dec₹ 6,188₹ 2,019
+  Then display interest and principal amount on console # stepDefinitions.CarLoanCalculationSteps.display_interest_and_principal_amount_on_console()
+
+    Embedding Calculation of car loan [image/png 152636 bytes]
+
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the UI features of EMI Calculator&quot;, &quot;EMI Calculator UI check&quot;](2)" classname="testRunner.TestRunner" time="82.724">
+    <system-out><![CDATA[
+Scenario: Validate the UI features of EMI Calculator                                                                     # Features/EMICalculatorUI.feature:8
+Opening Browser...
+https://emicalculator.net/
+  Given user navigates to EMI Calculator                                                                                 # stepDefinitions.EMICalculatorUI.user_navigates_to_EMI_Calculator()
+
+    Embedding Validate the UI features of EMI Calculator [image/png 220012 bytes]
+
+  When check for loan amount input box                                                                                   # stepDefinitions.EMICalculatorUI.Validating_Loan_Amount_TextBox()
+
+    Embedding Validate the UI features of EMI Calculator [image/png 220012 bytes]
+
+  And check for loan amount slider                                                                                       # stepDefinitions.EMICalculatorUI.Validating_Loan_Amount_Slider()
+
+    Embedding Validate the UI features of EMI Calculator [image/png 220012 bytes]
+
+  Then loan amount slider should be moved to the Some value and respectively loan amount should be displayed             # stepDefinitions.EMICalculatorUI.validating_Data_Flow_Between_LoanAmount_Slider_And_TextBox()
+
+    Embedding Validate the UI features of EMI Calculator [image/png 220120 bytes]
+
+  When check for Intrest input box                                                                                       # stepDefinitions.EMICalculatorUI.validate_Interest_Rate_TextBox()
+
+    Embedding Validate the UI features of EMI Calculator [image/png 220120 bytes]
+
+  And check for Intrest slider                                                                                           # stepDefinitions.EMICalculatorUI.validate_Interest_Rate_Slider()
+
+    Embedding Validate the UI features of EMI Calculator [image/png 220120 bytes]
+
+  Then loan Intrest slider should be moved to the Some value and respectively Intrest value should be displayed          # stepDefinitions.EMICalculatorUI.validatingDataFlowBetweenInterestRateSliderAndTextBox()
+
+    Embedding Validate the UI features of EMI Calculator [image/png 220095 bytes]
+
+  When check for loan Tenure input box                                                                                   # stepDefinitions.EMICalculatorUI.validate_Loan_Tenure_TextBox()
+
+    Embedding Validate the UI features of EMI Calculator [image/png 220095 bytes]
+
+  And check for loan Tenure slider                                                                                       # stepDefinitions.EMICalculatorUI.validate_Loan_Tenure_Slider()
+
+    Embedding Validate the UI features of EMI Calculator [image/png 220095 bytes]
+
+  Then loan loan Tenure slider should be moved to the Some value and respectively loan Tenure value should be displayed  # stepDefinitions.EMICalculatorUI.validatingDataFlowBetweenLoanTenureSliderAndTextBox()
+
+    Embedding Validate the UI features of EMI Calculator [image/png 141810 bytes]
+
+  When check for Fees & Charges input box                                                                                # stepDefinitions.EMICalculatorUI.validate_Fees_And_Charges_TextBox()
+
+    Embedding Validate the UI features of EMI Calculator [image/png 141810 bytes]
+
+  And check for Fees & Charges slider                                                                                    # stepDefinitions.EMICalculatorUI.validate_Fees_And_Charges_Slider()
+
+    Embedding Validate the UI features of EMI Calculator [image/png 141810 bytes]
+
+  Then Fees & Charges slider should be moved to the Some value and respectively Fees & Charges value should be displayed # stepDefinitions.EMICalculatorUI.validating_Data_Flow_Between_Fees_And_Charges_Slider_And_TextBox()
+
+    Embedding Validate the UI features of EMI Calculator [image/png 127317 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the UI features of EMI Calculator with input and slider&quot;, &quot;EMI Calculator UI check&quot;](3)" classname="testRunner.TestRunner" time="91.781">
+    <system-out><![CDATA[
+Scenario: Validate the UI features of EMI Calculator with input and slider # Features/EMICalculatorUI.feature:23
+Opening Browser...
+https://emicalculator.net/
+  Given user navigates to EMI Calculator                                   # stepDefinitions.EMICalculatorUI.user_navigates_to_EMI_Calculator()
+
+    Embedding Validate the UI features of EMI Calculator with input and slider [image/png 219918 bytes]
+
+=======================================================================================
+ENterd loan amt value: 7500000
+=======================================================================================
+  When Enter input value in loan amount input box                          # stepDefinitions.EMICalculatorUI.Enter_input_value_in_loan_amount_input_box()
+
+    Embedding Validate the UI features of EMI Calculator with input and slider [image/png 220767 bytes]
+
+=======================================================================================
+SLide String loan amt value: left: 37.5%;
+SLide Width loan amt value: 37.5%;
+SLide loan amt value: 37.5
+=======================================================================================
+=======================================================================================
+actualLoanAmountSliderValue37.5
+=======================================================================================
+=======================================================================================
+ExpectedAmountSliderValue37.5
+=======================================================================================
+  Then loan amount slider should be moved to the same value                # stepDefinitions.EMICalculatorUI.validating_Data_Flow_Between_TextBox_And_LoanAmount_Slider_()
+
+    Embedding Validate the UI features of EMI Calculator with input and slider [image/png 220767 bytes]
+
+=======================================================================================
+ENterd Intrest Rate amt value: 10
+=======================================================================================
+  When Enter input value in Intrest input box                              # stepDefinitions.EMICalculatorUI.Enter_input_value_in_Intrest_input_box()
+
+    Embedding Validate the UI features of EMI Calculator with input and slider [image/png 220085 bytes]
+
+=======================================================================================
+SLide String Intrest Rate value: left: 50%;
+SLide Width Intrest Rate value: 50%;
+SLide Intrest Rate  value: 50.0
+=======================================================================================
+=======================================================================================
+actualLoanIntrestRateSliderValue50.0
+=======================================================================================
+=======================================================================================
+ExpectedLoanIntrestRateSliderValue50.0
+=======================================================================================
+  Then Intrest slider should be moved to the same value                    # stepDefinitions.EMICalculatorUI.validatingDataFlowBetweenTextBoxAndInterestRateSlider()
+
+    Embedding Validate the UI features of EMI Calculator with input and slider [image/png 220085 bytes]
+
+=======================================================================================
+ENterd loanTenure  value: 15
+=======================================================================================
+  When Enter input value in loan Tenure input box                          # stepDefinitions.EMICalculatorUI.Enter_input_value_in_loan_Tenure_input_box()
+
+    Embedding Validate the UI features of EMI Calculator with input and slider [image/png 149163 bytes]
+
+=======================================================================================
+SLide String loan Tenure value: left: 50%;
+SLide Width loan Tenure value: 50%;
+SLide loan Tenure value: 50.0
+=======================================================================================
+=======================================================================================
+ExpectedAmountSliderValue50.0
+=======================================================================================
+=======================================================================================
+ExpectedAmountSliderValue50.0
+=======================================================================================
+  Then loan Tenure slider should be moved to the same value                # stepDefinitions.EMICalculatorUI.validatingDataFlowBetweenLoanTenureTextBoxAndSlider()
+
+    Embedding Validate the UI features of EMI Calculator with input and slider [image/png 149163 bytes]
+
+=======================================================================================
+ENterd fees and charges amt value: 50000
+=======================================================================================
+  When Enter input value in Fees & Charges input box                       # stepDefinitions.EMICalculatorUI.Enter_input_value_in_FeesCharges_input_box()
+
+    Embedding Validate the UI features of EMI Calculator with input and slider [image/png 137334 bytes]
+
+=======================================================================================
+SLide String loan Fee and charges value: left: 50%;
+SLide Width loan Fee and charges value: 50%;
+SLide loan Fee and charges value: 50.0
+=======================================================================================
+=======================================================================================
+actualFeesAndChargesSliderValue50.0
+=======================================================================================
+=======================================================================================
+expectedFeesAndChargesSliderValue50.0
+=======================================================================================
+  Then Fees & Charges slider should be moved to the same value             # stepDefinitions.EMICalculatorUI.validating_Data_Flow_Between_TextBox_Fees_And_Charges_Slider()
+
+    Embedding Validate the UI features of EMI Calculator with input and slider [image/png 137334 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Calculation of Home Loan EMI&quot;, &quot;Home Loan EMI Calculation&quot;](4)" classname="testRunner.TestRunner" time="27.76">
+    <system-out><![CDATA[
+Scenario: Calculation of Home Loan EMI                   # Features/HomeLoanEMICalculation.feature:9
+Opening Browser...
+https://emicalculator.net/
+  Given the user navigates to Home Loan EMI Calculator   # stepDefinitions.HomeLoanEMICalculationSteps.the_user_navigates_to_home_loan_emi_calculator()
+
+    Embedding Calculation of Home Loan EMI [image/png 185161 bytes]
+
+  When the user fills the relevant details               # stepDefinitions.HomeLoanEMICalculationSteps.the_user_fills_the_relevant_details()
+
+    Embedding Calculation of Home Loan EMI [image/png 194013 bytes]
+
+[[Ljava.lang.String;@260043d
+  Then extract the data from year on year table to excel # stepDefinitions.HomeLoanEMICalculationSteps.extract_the_data_from_year_on_year_table_to_excel()
+
+    Embedding Calculation of Home Loan EMI [image/png 205690 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the UI features of Loan Amount Calculator&quot;, &quot;Loan Amount Calculator UI check&quot;](5)" classname="testRunner.TestRunner" time="35.663">
+    <system-out><![CDATA[
+Scenario: Validate the UI features of Loan Amount Calculator                                                                         # Features/LoanAmountCalculatorUI.feature:8
+Opening Browser...
+https://emicalculator.net/
+  Given user navigates to Loan Amount Calculator                                                                                     # stepDefinitions.LoanAmountCalculatorUI.user_navigates_to_EMI_Calculator()
+
+    Embedding Validate the UI features of Loan Amount Calculator [image/png 217994 bytes]
+
+  When check for EMI input box                                                                                                       # stepDefinitions.LoanAmountCalculatorUI.TC_03_13_validating_Validating_EMI_TextBox()
+
+    Embedding Validate the UI features of Loan Amount Calculator [image/png 217994 bytes]
+
+  And check for EMI slider                                                                                                           # stepDefinitions.LoanAmountCalculatorUI.TC_03_14_validating_EMI_Slider()
+
+    Embedding Validate the UI features of Loan Amount Calculator [image/png 217994 bytes]
+
+  Then EMI slider should be moved to the Some value and respectively EMI should be displayed                                         # stepDefinitions.LoanAmountCalculatorUI.TC_03_15validating_Data_Flow_Between_EMI_Slider_And_TextBox()
+
+    Embedding Validate the UI features of Loan Amount Calculator [image/png 217355 bytes]
+
+  When check for Loan Amount Intrest input box                                                                                       # stepDefinitions.LoanAmountCalculatorUI.TC_03_16_validate_Interest_Rate_TextBox()
+
+    Embedding Validate the UI features of Loan Amount Calculator [image/png 217355 bytes]
+
+  And check for Loan Amount Intrest slider                                                                                           # stepDefinitions.LoanAmountCalculatorUI.TC_03_17validating_Interest_Rate_Slider()
+
+    Embedding Validate the UI features of Loan Amount Calculator [image/png 217355 bytes]
+
+  Then Loan Amount loan Intrest slider should be moved to the Some value and respectively Intrest value should be displayed          # stepDefinitions.LoanAmountCalculatorUI.TC_03_18_validating_Data_Flow_Between_Interest_Rate_Slider_And_TextBox()
+
+    Embedding Validate the UI features of Loan Amount Calculator [image/png 209162 bytes]
+
+  When check for Loan Amount loan Tenure input box                                                                                   # stepDefinitions.LoanAmountCalculatorUI.TC_03_19_validateLoanTenureTextBox()
+
+    Embedding Validate the UI features of Loan Amount Calculator [image/png 209162 bytes]
+
+  And check for Loan Amount loan Tenure slider                                                                                       # stepDefinitions.LoanAmountCalculatorUI.TC_03_20_validateLoanTenureSlider()
+
+    Embedding Validate the UI features of Loan Amount Calculator [image/png 209162 bytes]
+
+  Then Loan Amount loan loan Tenure slider should be moved to the Some value and respectively loan Tenure value should be displayed  # stepDefinitions.LoanAmountCalculatorUI.TC_03_21_validating_Data_Flow_Between_LoanTenure_Slider_And_TextBox()
+
+    Embedding Validate the UI features of Loan Amount Calculator [image/png 140655 bytes]
+
+  When check for Loan Amount Fees & Charges input box                                                                                # stepDefinitions.LoanAmountCalculatorUI.TC_03_22_validateFeesAndChargesTextBox()
+
+    Embedding Validate the UI features of Loan Amount Calculator [image/png 140655 bytes]
+
+  And check for Loan Amount Fees & Charges slider                                                                                    # stepDefinitions.LoanAmountCalculatorUI.TC_03_23_validateFeesAndChargesSlider()
+
+    Embedding Validate the UI features of Loan Amount Calculator [image/png 140655 bytes]
+
+  Then Loan Amount Fees & Charges slider should be moved to the Some value and respectively Fees & Charges value should be displayed # stepDefinitions.LoanAmountCalculatorUI.TC_03_24_validatingDataFlowBetweenFeesAndChargesSliderAndTextBox()
+
+    Embedding Validate the UI features of Loan Amount Calculator [image/png 115523 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the UI features of Loan Amount Calculator with input and slider&quot;, &quot;Loan Amount Calculator UI check&quot;](6)" classname="testRunner.TestRunner" time="67.609">
+    <system-out><![CDATA[
+Scenario: Validate the UI features of Loan Amount Calculator with input and slider # Features/LoanAmountCalculatorUI.feature:23
+Opening Browser...
+https://emicalculator.net/
+  Given user navigates to Loan Amount Calculator                                   # stepDefinitions.LoanAmountCalculatorUI.user_navigates_to_EMI_Calculator()
+
+    Embedding Validate the UI features of Loan Amount Calculator with input and slider [image/png 217994 bytes]
+
+=======================================================================================
+ENterd Emi value: 50,000.01
+=======================================================================================
+  When Enter input value in EMI input box                                          # stepDefinitions.LoanAmountCalculatorUI.Enter_input_value_in_loan_amount_input_box()
+
+    Embedding Validate the UI features of Loan Amount Calculator with input and slider [image/png 124040 bytes]
+
+=======================================================================================
+SLide String EMI value: left: 50%;
+SLide Width EMI value: 50%;
+SLide loan EMI value: 50.0
+=======================================================================================
+=======================================================================================
+actualLoanAmountSliderValue50.0
+=======================================================================================
+=======================================================================================
+ExpectedAmountSliderValue50.0
+=======================================================================================
+  Then EMI slider should be moved to the same value of the scale                   # stepDefinitions.LoanAmountCalculatorUI.validating_Data_Flow_Between_TextBox_And_LoanAmount_Slider_()
+
+    Embedding Validate the UI features of Loan Amount Calculator with input and slider [image/png 124077 bytes]
+
+=======================================================================================
+ENterd Intrest Rate amt value: 10
+=======================================================================================
+  When Enter input value in Intrest input box of Loan Amount Calculator            # stepDefinitions.LoanAmountCalculatorUI.Enter_input_value_in_Intrest_input_box()
+
+    Embedding Validate the UI features of Loan Amount Calculator with input and slider [image/png 123521 bytes]
+
+=======================================================================================
+SLide String Intrest Rate value: left: 50%;
+SLide Width Intrest Rate value: 50%;
+SLide Intrest Rate  value: 50.0
+=======================================================================================
+=======================================================================================
+actualLoanIntrestRateSliderValue50.0
+=======================================================================================
+=======================================================================================
+ExpectedLoanIntrestRateSliderValue50.0
+=======================================================================================
+  Then Intrest slider should be moved to the same value of the scale               # stepDefinitions.LoanAmountCalculatorUI.validatingDataFlowBetweenTextBoxAndInterestRateSlider()
+
+    Embedding Validate the UI features of Loan Amount Calculator with input and slider [image/png 123496 bytes]
+
+=======================================================================================
+ENterd loanTenure  value: 15
+=======================================================================================
+  When Enter input value in loan Tenure input box of Loan Amount Calculator        # stepDefinitions.LoanAmountCalculatorUI.Enter_input_value_in_loan_Tenure_input_box()
+
+    Embedding Validate the UI features of Loan Amount Calculator with input and slider [image/png 123513 bytes]
+
+=======================================================================================
+SLide String loan Tenure value: left: 50%;
+SLide Width loan Tenure value: 50%;
+SLide loan Tenure value: 50.0
+=======================================================================================
+=======================================================================================
+ExpectedAmountSliderValue50.0
+=======================================================================================
+=======================================================================================
+ExpectedAmountSliderValue50.0
+=======================================================================================
+  Then loan Tenure slider should be moved to the same value of the scale           # stepDefinitions.LoanAmountCalculatorUI.validatingDataFlowBetweenLoanTenureTextBoxAndSlider()
+
+    Embedding Validate the UI features of Loan Amount Calculator with input and slider [image/png 123513 bytes]
+
+=======================================================================================
+ENterd fees and charges amt value: 50000
+=======================================================================================
+  When Enter input value in Fees & Charges input box of Loan Amount Calculator     # stepDefinitions.LoanAmountCalculatorUI.Enter_input_value_in_FeesCharges_input_box()
+
+    Embedding Validate the UI features of Loan Amount Calculator with input and slider [image/png 123538 bytes]
+
+=======================================================================================
+SLide String loan Fee and charges value: left: 50%;
+SLide Width loan Fee and charges value: 50%;
+SLide loan Fee and charges value: 50.0
+=======================================================================================
+=======================================================================================
+actualFeesAndChargesSliderValue50.0
+=======================================================================================
+=======================================================================================
+expectedFeesAndChargesSliderValue50.0
+=======================================================================================
+  Then Fees & Charges slider should be moved to the same value of the scale        # stepDefinitions.LoanAmountCalculatorUI.validating_Data_Flow_Between_TextBox_Fees_And_Charges_Slider()
+
+    Embedding Validate the UI features of Loan Amount Calculator with input and slider [image/png 123538 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the UI features of Loan Tenure Calculator&quot;, &quot;Loan Tuner Calculator UI check&quot;](7)" classname="testRunner.TestRunner" time="97.938">
+    <system-out><![CDATA[
+Scenario: Validate the UI features of Loan Tenure Calculator                                                                          # Features/LoanTenureCalculator.feature:8
+Opening Browser...
+https://emicalculator.net/
+  Given user navigates to Loan Tuner Calculator                                                                                       # stepDefinitions.LoanTenureCalculator.user_navigates_to_Loan_Tenure_Calculator()
+
+    Embedding Validate the UI features of Loan Tenure Calculator [image/png 218805 bytes]
+
+  When check for Loan Tenure amount input box                                                                                         # stepDefinitions.LoanTenureCalculator.TC_03_25_validateLoanAmountTextBox()
+
+    Embedding Validate the UI features of Loan Tenure Calculator [image/png 218805 bytes]
+
+  And check for Loan Tenure amount slider                                                                                             # stepDefinitions.LoanTenureCalculator.TC_03_26_validateLoanAmountSlider()
+
+    Embedding Validate the UI features of Loan Tenure Calculator [image/png 218805 bytes]
+
+  Then Loan TenureEMI slider should be moved to the Some value and respectively EMI should be displayed                               # stepDefinitions.LoanTenureCalculator.TC_03_27_validating_Data_FlowBetween_Loan_Amount_SliderAndTextBox()
+
+    Embedding Validate the UI features of Loan Tenure Calculator [image/png 218792 bytes]
+
+  When check for Loan Tenure EMI input box                                                                                            # stepDefinitions.LoanTenureCalculator.TC_03_28_validatingValidatingEMITextBox()
+
+    Embedding Validate the UI features of Loan Tenure Calculator [image/png 218792 bytes]
+
+  And check for Loan Tenure EMI slider                                                                                                # stepDefinitions.LoanTenureCalculator.TC_03_29_validatingEMISlider()
+
+    Embedding Validate the UI features of Loan Tenure Calculator [image/png 218792 bytes]
+
+  Then Loan Tenure EMI slider should be moved to the Some value and respectively EMI value should be displayed                        # stepDefinitions.LoanTenureCalculator.TC_03_30_validatingDataFlowBetweenEMISliderAndTextBox()
+
+    Embedding Validate the UI features of Loan Tenure Calculator [image/png 219384 bytes]
+
+  When check for Loan Tenure Intrest Rate input box                                                                                   # stepDefinitions.LoanTenureCalculator.TC_03_31_validateInterestRateTextBox()
+
+    Embedding Validate the UI features of Loan Tenure Calculator [image/png 219384 bytes]
+
+  And check for Loan Tenure Intrest Rate slider                                                                                       # stepDefinitions.LoanTenureCalculator.TC_03_32_validatingInterestRateSlider()
+
+    Embedding Validate the UI features of Loan Tenure Calculator [image/png 219384 bytes]
+
+  Then loan Tenure Intrest Rate slider should be moved to the Some value and respectively loan Intrest Rate value should be displayed # stepDefinitions.LoanTenureCalculator.TC_03_33_validateDataFlowBetweenInterestRateSliderAndTextBox()
+
+    Embedding Validate the UI features of Loan Tenure Calculator [image/png 139957 bytes]
+
+  When check for Loan Tenure Fees & Charges input box                                                                                 # stepDefinitions.LoanTenureCalculator.TC_03_34_validateFeesAndChargesTextBox()
+
+    Embedding Validate the UI features of Loan Tenure Calculator [image/png 218805 bytes]
+
+  And check for Loan Tenure Fees & Charges slider                                                                                     # stepDefinitions.LoanTenureCalculator.TC_03_35_validateFeesAndChargesSlider()
+
+    Embedding Validate the UI features of Loan Tenure Calculator [image/png 218805 bytes]
+
+  Then Loan Tenure Fees & Charges slider should be moved to the Some value and respectively Fees & Charges value should be displayed  # stepDefinitions.LoanTenureCalculator.TC_036_validatingDataFlowBetweenFeesAndChargesSliderAndTextBox()
+
+    Embedding Validate the UI features of Loan Tenure Calculator [image/png 127030 bytes]
+
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate the UI features of Loan Tenure Calculator with input and slider&quot;, &quot;Loan Tuner Calculator UI check&quot;](8)" classname="testRunner.TestRunner" time="196.732">
+    <system-out><![CDATA[
+Scenario: Validate the UI features of Loan Tenure Calculator with input and slider # Features/LoanTenureCalculator.feature:24
+Opening Browser...
+https://emicalculator.net/
+  Given user navigates to Loan Tuner Calculator                                    # stepDefinitions.LoanTenureCalculator.user_navigates_to_Loan_Tenure_Calculator()
+
+    Embedding Validate the UI features of Loan Tenure Calculator with input and slider [image/png 218805 bytes]
+
+=======================================================================================
+ENterd loan amt value: 7500000
+=======================================================================================
+  When Enter input value in loan amount input box of Loan Tenure Calculator        # stepDefinitions.LoanTenureCalculator.Enter_input_value_in_loan_amount_input_box()
+
+    Embedding Validate the UI features of Loan Tenure Calculator with input and slider [image/png 219221 bytes]
+
+=======================================================================================
+SLide String loan amt value: left: 37.5%;
+SLide Width loan amt value: 37.5%;
+SLide loan amt value: 37.5
+=======================================================================================
+=======================================================================================
+actualLoanAmountSliderValue37.5
+=======================================================================================
+=======================================================================================
+ExpectedAmountSliderValue37.5
+=======================================================================================
+  Then loan amount slider should be moved to the same value of the scale on Scale  # stepDefinitions.LoanTenureCalculator.validating_Data_Flow_Between_TextBox_And_LoanAmount_Slider_()
+
+    Embedding Validate the UI features of Loan Tenure Calculator with input and slider [image/png 219221 bytes]
+
+=======================================================================================
+ENterd Intrest Rate amt value: 10
+=======================================================================================
+  When Enter input value in Intrest input box of Loan Tenure Calculator            # stepDefinitions.LoanTenureCalculator.Enter_input_value_in_Intrest_input_box()
+
+    Embedding Validate the UI features of Loan Tenure Calculator with input and slider [image/png 149875 bytes]
+
+=======================================================================================
+SLide String Intrest Rate value: left: 50%;
+SLide Width Intrest Rate value: 50%;
+SLide Intrest Rate  value: 50.0
+=======================================================================================
+=======================================================================================
+actualLoanIntrestRateSliderValue50.0
+=======================================================================================
+=======================================================================================
+ExpectedLoanIntrestRateSliderValue50.0
+=======================================================================================
+  Then Intrest slider should be moved to the same value on the scale               # stepDefinitions.LoanTenureCalculator.validatingDataFlowBetweenTextBoxAndInterestRateSlider()
+
+    Embedding Validate the UI features of Loan Tenure Calculator with input and slider [image/png 149875 bytes]
+
+=======================================================================================
+ENterd fees and charges amt value: 50000
+=======================================================================================
+  When Enter input value in Fees & Charges input box of Loan Tenure Calculator     # stepDefinitions.LoanTenureCalculator.Enter_input_value_in_FeesCharges_input_box()
+
+    Embedding Validate the UI features of Loan Tenure Calculator with input and slider [image/png 137653 bytes]
+
+=======================================================================================
+SLide String loan Fee and charges value: left: 50%;
+SLide Width loan Fee and charges value: 50%;
+SLide loan Fee and charges value: 50.0
+=======================================================================================
+=======================================================================================
+actualFeesAndChargesSliderValue50.0
+=======================================================================================
+=======================================================================================
+expectedFeesAndChargesSliderValue50.0
+=======================================================================================
+  Then Fees & Charges slider should be moved to the same value on the scale        # stepDefinitions.LoanTenureCalculator.validating_Data_Flow_Between_TextBox_Fees_And_Charges_Slider()
+
+    Embedding Validate the UI features of Loan Tenure Calculator with input and slider [image/png 137653 bytes]
+
+]]></system-out>
+  </testcase>
+</testsuite>

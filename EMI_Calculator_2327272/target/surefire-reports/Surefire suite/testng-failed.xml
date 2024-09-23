@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="stepDefinitions.Testcase">
+        <methods>
+          <include name="TC_03_01_validateLoanAmountTextBox"/>
+          <include name="TC_03_12_validatingDataFlowBetweenFeesAndChargesSliderAndTextBox"/>
+          <include name="TC_03_37_validatingDataFlowBetweenYearAndMonthButton"/>
+          <include name="TC_03_08_validateLoanTenureSlider"/>
+          <include name="TC_03_06_validatingDataFlowBetweenInterestRateSliderAndTextBox"/>
+          <include name="TC_03_28_validatingValidatingEMITextBox"/>
+          <include name="TC_03_18_validatingDataFlowBetweenInterestRateSliderAndTextBox"/>
+          <include name="TC_01_11_validateFeesAndChargesSlider"/>
+          <include name="TC_036_validatingDataFlowBetweenFeesAndChargesSliderAndTextBox"/>
+          <include name="TC_03_22_validateFeesAndChargesTextBox"/>
+          <include name="TC_01_02_displayResult"/>
+          <include name="TC_02_01_StoringTheYearTableInExcel"/>
+          <include name="Afterclass"/>
+          <include name="TC_03_33_validateDataFlowBetweenInterestRateSliderAndTextBox"/>
+          <include name="TC_03_19_validateLoanTenureTextBox"/>
+          <include name="TC_03_16_validateInterestRateTextBox"/>
+          <include name="TC_03_24_validatingDataFlowBetweenFeesAndChargesSliderAndTextBox"/>
+          <include name="TC_03_10_validateFeesAndChargesTextBox"/>
+          <include name="driverconfig"/>
+          <include name="TC_03_03_validatingDataFlowBetweenLoanAmountSliderAndTextBox"/>
+          <include name="TC_03_05_validateInterestRateSlider"/>
+          <include name="TC_03_30_validatingDataFlowBetweenEMISliderAndTextBox"/>
+          <include name="TC_03_17_validatingDataFlowBetweenInterestRateSliderAndTextBox"/>
+          <include name="TC_03_38_validatingDataFlowBetweenYearAndMonthButton"/>
+          <include name="TC_03_07_validateLoanTenureTextBox"/>
+          <include name="TC_03_13_validatingValidatingEMITextBox"/>
+          <include name="TC_03_15_validatingDataFlowBetweenEMISliderAndTextBox"/>
+          <include name="TC_03_20_validateLoanTenureSlider"/>
+          <include name="TC_03_14_validatingEMISlider"/>
+          <include name="TC_01_enterDetails"/>
+          <include name="TC_03_09_validatingDataFlowBetweenLoanTenureSliderAndTextBox"/>
+          <include name="TC_03_34_validateFeesAndChargesTextBox"/>
+          <include name="TC03_02_validateLoanAmountSlider"/>
+          <include name="TC_03_32_validatingInterestRateSlider"/>
+          <include name="TC_03_31_validateInterestRateTextBox"/>
+          <include name="TC_03_29_validatingEMISlider"/>
+          <include name="TC_03_27_validatingDataFlowBetweenLoanAmountSliderAndTextBox"/>
+          <include name="TC_03_23_validateFeesAndChargesSlider"/>
+          <include name="TC_03_35_validateFeesAndChargesSlider"/>
+          <include name="TC_03_25_validateLoanAmountTextBox"/>
+          <include name="TC_03_04_validateInterestRateTextBox"/>
+          <include name="TC_03_26_validateLoanAmountSlider"/>
+        </methods>
+      </class> <!-- stepDefinitions.Testcase -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

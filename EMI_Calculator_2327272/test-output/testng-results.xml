@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-18T10:34:59 IST" name="Default suite" finished-at="2024-04-18T10:43:55 IST" duration-ms="536647">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@23e84203]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-04-18T10:34:59 IST" name="Default test" finished-at="2024-04-18T10:43:55 IST" duration-ms="536647">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestRunner@23e84203]" started-at="2024-04-18T10:34:59 IST" name="setUpClass" finished-at="2024-04-18T10:35:00 IST" duration-ms="763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3f30c9cf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@23e84203]" started-at="2024-04-18T10:35:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-18T10:35:11 IST" duration-ms="11880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check whether the application can be accessed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Runnable"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@23e84203]" started-at="2024-04-18T10:35:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-18T10:35:24 IST" duration-ms="12420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Calculation of car loan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Car Loan EMI Calculation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@23e84203]" started-at="2024-04-18T10:35:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-18T10:36:47 IST" duration-ms="83097" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Calculation of Home Loan EMI"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Loan EMI Calculation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@23e84203]" started-at="2024-04-18T10:36:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-18T10:38:10 IST" duration-ms="83008" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the UI features of EMI Calculator"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Calculator UI check"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@23e84203]" started-at="2024-04-18T10:38:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-18T10:39:56 IST" duration-ms="106358" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the UI features of EMI Calculator with input and slider"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Calculator UI check"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@23e84203]" started-at="2024-04-18T10:39:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-18T10:40:54 IST" duration-ms="57251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the UI features of Loan Amount Calculator"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Loan Amount Calculator UI check"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@23e84203]" started-at="2024-04-18T10:40:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-18T10:42:04 IST" duration-ms="70530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the UI features of Loan Amount Calculator with input and slider"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Loan Amount Calculator UI check"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@23e84203]" started-at="2024-04-18T10:42:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-18T10:42:43 IST" duration-ms="38451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the UI features of Loan Tenure Calculator"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Loan Tuner Calculator UI check"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestRunner@23e84203]" started-at="2024-04-18T10:42:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-18T10:43:50 IST" duration-ms="67311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the UI features of Loan Tenure Calculator with input and slider"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Loan Tuner Calculator UI check"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@23e84203]" started-at="2024-04-18T10:43:50 IST" name="tearDownClass" finished-at="2024-04-18T10:43:55 IST" duration-ms="5524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
